@@ -1,0 +1,178 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 19, 2024, 8:51:02 PM
+    Author     : Admin
+*/
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: initial;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+html,body {
+    width: 100%;
+    height: auto;
+}
+.wraper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.slide {
+    width: 100%;
+    height: 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide_1 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:0;
+    z-index: 1;
+    opacity: 0;
+}
+
+.slide_2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:0;
+    z-index: 2;
+    opacity: 0;
+}
+.slide_3 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:0;
+    z-index: 3;
+    opacity: 0;
+}
+
+.nut {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+.nut ul li {
+    width: 10px;
+    height: 10px;
+    border:2px solid white;
+    display: inline-block;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.nut ul li:hover {
+    background-color: white;
+}
+.s1{
+    transition: 1.5s;
+    opacity: 1;
+}
+
+.intro_content_details {
+    height: 250px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    /* margin: 10px; */
+    text-align: center;
+    padding: 15px;
+    padding-top: 30px;
+}
+
+/* footer */
+/*.footer {
+    margin-top: 1px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+     margin: 0px 300px; 
+    margin: 0px;
+    background-color: black;
+    color: white;
+}*/
+
+.row {
+    /*margin: 0px 50px;*/
+    padding: 30px;
+}
+
+.about, .contact_info, .openning {
+    padding: 30px 30px;
+    float: left;
+
+}
+
+.content img {
+    width: 100%;
+}
+
+.content .row{
+    padding: 100px;
+}
+
+/* Style for list items */
+.tm-paging-item {
+    list-style-type: none; /* Remove default list style */
+    margin-bottom: 10px; /* Add space between list items */
+    padding: 5px; /* Add padding for better readability */
+    background-color: #f0f0f0; /* Background color for list items */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+/* Style for edit and delete icons */
+.bi {
+    margin-left: 5px; /* Add space between icon and text */
+    color: #007bff; /* Set icon color */
+    text-decoration: none; /* Remove default underline */
+}
+
+/* Style for hover effect on edit and delete icons */
+.bi:hover {
+    color: #0056b3; /* Change icon color on hover */
+}
+
+
+.footer .container {
+    margin: 0px 220px;
+}
